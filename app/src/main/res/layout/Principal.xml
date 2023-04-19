@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPrincipal"
+    android:background="@color/purple"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/Bemvindo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_BemVindo"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <SearchView
+        android:id="@+id/pesquisar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="pesquisar"
+        android:background="@color/white"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/Bemvindo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <Button
+        android:id="@+id/btAgendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="@string/agendar"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="152dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="128dp"
+        android:rotationX="4"
+        app:layout_constraintBottom_toTopOf="@+id/btAgendar"
+        app:layout_constraintEnd_toStartOf="@+id/Mus"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/treino__1_"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="148dp"
+        android:layout_height="265dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/btAgendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/image1"
+        app:layout_constraintTop_toBottomOf="@+id/Mus"
+        app:layout_constraintVertical_bias="0.052"
+        app:srcCompat="@drawable/treino"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/Rec"
+        android:layout_width="157dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/recupera_o"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/image1"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Recuperação de Lesão" />
+
+    <TextView
+        android:id="@+id/Mus"
+        android:layout_width="147dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/muscula_o"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/Rec"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Treino" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
