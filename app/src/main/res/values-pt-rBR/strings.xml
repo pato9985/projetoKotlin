@@ -22,4 +22,6 @@
     <string name="agendar">AGENDAR</string>
     <string name="todo">TODO</string>
     <string name="tudo">TUDO</string>
+    <string name="todos">TODO</string>
+    <string name="msgError" />
 </resources>

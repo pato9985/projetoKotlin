@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainPrincipal"
+    tools:context=".MainActivity2"
     android:background="@color/purple"
     tools:ignore="MissingDefaultResource">
 
@@ -66,7 +66,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/treino__1_"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@tools:sample/avatars"
+        android:contentDescription="@string/todos" />
 
     <ImageView
         android:id="@+id/image2"

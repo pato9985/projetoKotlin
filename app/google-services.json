@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527856210838",
+    "project_id": "cuida-ba106",
+    "storage_bucket": "cuida-ba106.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527856210838:android:d239eae179e635a2bbc3b7",
+        "android_client_info": {
+          "package_name": "com.example.cuidadevoce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527856210838-ogu4eb0nf4kc3ls6ogclm9noqe7bjnn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8bBwxF_gxpAJGFy31PkBkFA0p12eAkM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527856210838-ogu4eb0nf4kc3ls6ogclm9noqe7bjnn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

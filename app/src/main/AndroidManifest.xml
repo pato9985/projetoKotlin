@@ -12,10 +12,10 @@
         android:theme="@style/Theme.CuidaDeVoce"
         tools:targetApi="31">
         <activity
-            android:name=".MainPrincipal"
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainCasdatro"
+            android:name=".MainActivity3Casdatro"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

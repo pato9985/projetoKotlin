@@ -6,7 +6,7 @@
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="@color/purple"
-    tools:context=".MainCasdatro">
+    tools:context=".MainActivity3Casdatro">
 
     <ImageView
         android:id="@+id/imagem"
